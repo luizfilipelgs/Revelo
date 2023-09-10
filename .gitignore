@@ -1,0 +1,24 @@
+# Diretório node_modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Arquivos de diretório
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# IDE e editor de arquivos/diretórios
+.idea/
+.vscode/
+*.swp
+*.swo

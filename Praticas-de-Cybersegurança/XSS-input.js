@@ -1,4 +1,4 @@
-// Carregue o módulo readline do Node.js para interagir com o console.
+// Módulo readline do Node.js para interagir com o console.
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -23,3 +23,11 @@ rl.question('Digite algo (tente usar caracteres especiais como < ou >): ', (inpu
     
     rl.close();
 });
+
+
+const registreSales = async (idSale, productId, quantity) => {
+    await conn.execute(
+      'INSERT INTO StoreManager.sales_products (sale_id, product_id, quantity) VALUES (?,?,?)',
+      [idSale, productId, quantity],
+    );
+};
