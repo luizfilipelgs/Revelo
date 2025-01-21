@@ -18,9 +18,3 @@ This repository contains code examples, scripts, and materials related to articl
 
 ---
 
-## Como Utilizar | How to Use
-
-1. Clone o repositório:  
-   **Clone the repository:**
-   ```bash
-   git clone https://github.com/luizfilipelgs/Revelo.git
